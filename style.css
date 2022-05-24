@@ -247,6 +247,14 @@ button:hover {
 /* main */
 
 main {
+<<<<<<< HEAD
   margin: 100px;
   text-align: center;
+=======
+    margin: 100px;
+    text-align: center;
+}
+.a{
+  object-fit: contain;
+>>>>>>> 00c9a2ff8999616782e1f0849c6b9a6941e29b98
 }
