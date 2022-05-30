@@ -254,9 +254,6 @@ button:hover {
 /* main */
 
 main {
-    margin: 100px;
-    text-align: center;
-}
-.a{
-  object-fit: contain;
+  margin: 100px;
+  text-align: center;
 }
