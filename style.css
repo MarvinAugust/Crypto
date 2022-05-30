@@ -3,7 +3,8 @@
     width: 80% !important;
   }
   main {
-    margin: 20% !important
+    margin: 20% !important;
+    padding:20px
   }
   .navMenu a{
     padding: 10px !important;
@@ -67,7 +68,6 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: black;
   color: white;
 }
 
@@ -254,14 +254,9 @@ button:hover {
 /* main */
 
 main {
-<<<<<<< HEAD
-  margin: 100px;
-  text-align: center;
-=======
     margin: 100px;
     text-align: center;
 }
 .a{
   object-fit: contain;
->>>>>>> 00c9a2ff8999616782e1f0849c6b9a6941e29b98
 }
