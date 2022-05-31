@@ -2,23 +2,42 @@
   p {
     width: 80% !important;
   }
+
   main {
     margin: 20% !important;
-    padding:20px
+    /* padding: 20px !important; */
+    width: 100% !important;
   }
-  .navMenu a{
+
+  .navMenu a {
     padding: 10px !important;
     padding-top: 30px !important;
     padding-bottom: 30px !important;
   }
+
+  .box {
+    padding-bottom: 250px !important;
+  }
 }
-a{
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: #121214;
+  background-image: linear-gradient(160deg, #121214 0%, #061523 100%);
+  color: white;
+}
+
+a {
   text-decoration: none;
   color: black;
 }
-a:hover{
+
+/* a:hover {
   color: red;
-}
+} */
 
 header {
   background: url('./bgcrypto.jpeg');
@@ -30,6 +49,7 @@ header {
   position: relative;
   overflow: hidden;
   border-radius: 0 0 85% 85% / 30%;
+  border-bottom: 2px solid white;
 }
 
 header .overlay {
@@ -46,13 +66,20 @@ header img {
 }
 
 
-p {
+.overlay p {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 30px;
   margin: auto;
   width: 50%;
   padding-top: 20px;
-  
+}
+
+#idea p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
 }
 
 button {
@@ -91,21 +118,12 @@ button:hover {
 
 .navMenu a:hover {
   background-color: black;
+  color: white;
 }
 
 
 
-.navMenu a:nth-child(1):hover {
-  color: purple;
-}
 
-.navMenu a:nth-child(2):hover {
-  color: red;
-}
-
-.navMenu a:nth-child(3):hover {
-  color: aqua;
-}
 
 
 
@@ -240,6 +258,7 @@ button:hover {
   position: relative;
   overflow: hidden;
   border-radius: 85% 85% 0 0 / 30%;
+  border-top: 2px solid white;
 }
 
 .team .content {
@@ -256,4 +275,275 @@ button:hover {
 main {
   margin: 100px;
   text-align: center;
+}
+
+.a {
+  object-fit: contain;
+}
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+
+}
+
+h1:last-of-type {
+  color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
+}
+
+
+.box p {
+  color: var(--grayishBlue);
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
+}
+
+
+
+@media (max-width: 450px) {
+  .box {
+    height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+    text-align: center;
+    height: 180px;
+  }
+}
+
+.cyan {
+  border-top: 3px solid var(--cyan);
+}
+
+.red {
+  border-top: 3px solid var(--red);
+}
+
+.blue {
+  border-top: 3px solid var(--blue);
+}
+
+.orange {
+  border-top: 3px solid var(--orange);
+}
+
+
+
+
+@media (min-width: 950px) {
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-down {
+    position: relative;
+    top: 150px;
+  }
+
+  .box {
+    width: 20%;
+
+  }
+
+  .header p {
+    width: 30%;
+  }
+
+}
+
+hr {
+  height: 1px;
+  width: 30%;
+  margin: 1px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: auto;
+  opacity: 100%;
+}
+
+.fonctionalities {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.futur {
+  margin-top: 100px;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #232427;
+}
+
+body .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container2 .card2 {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+body .container2 .card2:nth-child(1) .box2 .content a {
+  background: #2196f3;
+}
+
+body .container2 .card2:nth-child(2) .box2 .content a {
+  background: #e91e63;
+}
+
+body .container2 .card2:nth-child(3) .box2 .content a {
+  background: #23c186;
+}
+
+body .container2 .card2 .box2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .container2 .card2 .box2:hover {
+  transform: translateY(-50px);
+}
+
+body .container2 .card2 .box2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body .container2 .card2 .box2 .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .container2 .card2 .box2 .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .container2 .card2 .box2 .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container2 .card2 .box2 .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+body .container2 .card2 .box2 .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+body .container2 .card2 .box2 .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
 }
